@@ -1,0 +1,739 @@
+/*
+Theme Name: Aktive Mbilitaet und Gesundheit (Responsiv Child)
+Description: Das Theme für mobilitaet-gesundheit.ch
+Author: Fussverkehr Schweiz
+Author URI: http://fussverkehr.ch
+Template: Fussverkehr-Theme
+Version: 1.0
+Tags:
+*/
+
+@font-face {
+    font-family: 'eausans_black';
+    src: url('fonts/eau_sans_black-webfont.woff2') format('woff2'),
+         url('fonts/eau_sans_black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'eaublack_lining_oblique';
+    src: url('fonts/eau_sans_black_lng_obl-webfont.woff2') format('woff2'),
+         url('fonts/eau_sans_black_lng_obl-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'eausans_black_lining';
+    src: url('fonts/eau_sans_black_lng-webfont.woff2') format('woff2'),
+         url('fonts/eau_sans_black_lng-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'eausans_black_oblique';
+    src: url('fonts/eau_sans_black_obl-webfont.woff2') format('woff2'),
+         url('fonts/eau_sans_black_obl-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'eausans_black_osf_oblique';
+    src: url('fonts/eau_sans_black_osf_obl-webfont.woff2') format('woff2'),
+         url('fonts/eau_sans_black_osf_obl-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'eausans_black_osf';
+    src: url('fonts/eau_sans_black_osf-webfont.woff2') format('woff2'),
+         url('fonts/eau_sans_black_osf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'eausans_black';
+    src: url('fonts/eau_sans_black-webfont.woff2') format('woff2'),
+         url('fonts/eau_sans_black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'eausans_bold_lining_oblique';
+    src: url('fonts/eau_sans_bold_lng_obl-webfont.woff2') format('woff2'),
+         url('fonts/eau_sans_bold_lng_obl-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'eausans_bold_lining';
+    src: url('fonts/eau_sans_bold_lng-webfont.woff2') format('woff2'),
+         url('fonts/eau_sans_bold_lng-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'eausans_bold_oblique';
+    src: url('fonts/eau_sans_bold_obl-webfont.woff2') format('woff2'),
+         url('fonts/eau_sans_bold_obl-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'eausans_bold_osf_oblique';
+    src: url('fonts/eau_sans_bold_osf_obl-webfont.woff2') format('woff2'),
+         url('fonts/eau_sans_bold_osf_obl-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'eausans_bold_osf';
+    src: url('fonts/eau_sans_bold_osf-webfont.woff2') format('woff2'),
+         url('fonts/eau_sans_bold_osf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'eausans_bold';
+    src: url('fonts/eau_sans_bold-webfont.woff2') format('woff2'),
+         url('fonts/eau_sans_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'eausans_book_lining_oblique';
+    src: url('fonts/eau_sans_book_lin_obl-webfont.woff2') format('woff2'),
+         url('fonts/eau_sans_book_lin_obl-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'eausans_book_lining';
+    src: url('fonts/eau_sans_book_lng-webfont.woff2') format('woff2'),
+         url('fonts/eau_sans_book_lng-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'eausans_book_oblique';
+    src: url('fonts/eau_sans_book_obl-webfont.woff2') format('woff2'),
+         url('fonts/eau_sans_book_obl-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'eausans_book_osf_oblique';
+    src: url('fonts/eau_sans_book_osf_obl-webfont.woff2') format('woff2'),
+         url('fonts/eau_sans_book_osf_obl-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'eausans_book_osf';
+    src: url('fonts/eau_sans_book_osf-webfont.woff2') format('woff2'),
+         url('fonts/eau_sans_book_osf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'eausans_book';
+    src: url('fonts/eau_sans_book-webfont.woff2') format('woff2'),
+         url('fonts/eau_sans_book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#content h3{
+	margin-left: 7px;
+}
+
+#border h1, #border h2, #border h3 {
+	margin-top: 5px;
+}
+
+body {
+	font-family: eausans_book;
+}
+
+a, #border a, .news-single-backlink a{
+color: #5664AE;
+	
+}
+
+
+a:hover, #border a:hover, .news-single-backlink a:hover{
+color: #00BED7;
+	
+}
+#content ul{
+	
+
+list-style-image: url(icon_AMG.svg);
+line-height: 18px;
+}
+
+strong{
+	font-family: eausans_bold;
+	font-weight: normal;
+}
+
+#header{
+	background: #ffffff;
+	height: 105px;
+}
+
+.gfx{
+	background: #ffffff;
+}
+
+#title{
+position: absolute;
+	right: 180px;
+	padding-bottom: 10px;
+	bottom: -0.8px;
+	font-size: 36px;
+	font-family: eausans_black;
+	z-index: 999;
+	width: 780px;
+	text-align: right;
+	border-bottom: 7px solid #5664AE;
+}
+
+a.title{
+	color: #5664AE;
+}
+a.description{
+	color: #00BED7;
+}
+
+#title:hover a.title{
+	color: #00BED7;
+}
+
+#title:hover a.description{
+	color: #5664AE;
+}
+
+.logo-de, .logo-fr, logo-en, logo-it{
+	background: url('logo_AMG.svg') no-repeat left top;
+	left: 780px;
+	top: 49px;
+	width: 1070px;
+	height: 84px;
+}
+
+
+#main-nav {
+	z-index: 999;
+} 
+
+#service-nav a, #service-nav{
+color: black;
+}
+
+#service-nav a:hover{
+		color: #5664AE;
+	
+}
+
+#main-nav{
+	border-top: 0px none;
+}
+
+#content h1 {
+    border-bottom: 1px solid #5664AE;
+    border-left: 20px solid #5664AE;
+}
+
+#news h1, h1, #content h1{
+	    color: #5664AE;
+	    }
+
+#border{
+	border-top: #5664AE 10px solid
+}
+
+#news {
+width: 650px;
+margin-left: 20px;
+min-height: 280px;
+}
+
+#news a{color:#555;text-decoration:noneborder-top-style: solid;
+border-top-width: 1px;
+border-top-color: #ebe9eb;
+}#news p{margin:6px 0 0.5px}#news .news-item a img.alignleft {
+	margin: 0;
+}.news-item:hover h2{text-decoration:underline;background-color: rgba(0, 190, 215, 0.65)!important;}
+
+	
+#news .news-item{margin:0 10px 15px 0px;float: left;width: 150px;height: 212px;border: 1px solid rgba(155, 154, 154, 0.65);position: relative;padding: 0px;
+}
+a.more_news {
+	width: 136px;
+	padding: 7px;
+	color: #555;
+	font-weight: 700;
+	border-radius: 3px;
+	background-color: #ebe9eb;
+	border: 1px solid #ebe9eb;
+	line-height: 1;
+	display: inline-block;
+}
+
+a.more_news:hover {
+	background-color: #00BED7;
+	border: 1px inset #555;
+	text-decoration: underline !important;
+}
+
+#news h2{font-size: 13px;
+margin: 0;
+padding: 5px;
+position: absolute;
+bottom: 0px;
+width: 140px;
+min-height: 52px;
+background-color: rgba(255, 255, 255, 0.65);
+border-top: 1px solid #ebe9eb;
+}
+
+#address-left, #address-right{
+	width: 248px !important;
+}
+
+#bottom-container #border a, #footer a{
+		color: #5664AE;
+	text-shadow: 0 0 5px #d9d9d9;
+}
+#bottom-container #border a:hover, #footer a:hover{
+		color: #00BED7;
+			text-shadow: 0 0 2px #5664AE;
+		
+	
+}
+#sub-nav.regional ul li ul.sub-menu{
+	display: block;
+}
+
+#sub-nav.regional ul li ul.sub-menu li{
+	display: none;
+}
+
+#sub-nav.regional ul li.current-post-ancestor{
+display: block;	
+list-style-type:none;border-top:#999 1px dotted;
+}
+#sub-nav.regional ul li.current-post-ancestor a{
+	 border-right: 8px solid #00BED7;
+	
+	}
+
+#sub-nav li ul a:hover{
+color: #5664AE;
+}
+
+#sub-nav li ul li{
+	border-right: 0px none;
+}
+
+#sub-nav li ul li.current-post-ancestor a, #sub-nav ul li.current-menu-item a {
+    border-right: 8px solid #00BED7;
+}
+
+#sub-nav li ul li.current-menu-parent a {
+    border-right: 8px solid #5664AE;
+}
+
+#sub-nav ul li.current-menu-item li a, #sub-nav ul li.current-post-ancestor a,
+#sub-nav.shop ul li.menu-item-3944 li a {
+    border-right: none
+}
+
+#sub-nav ul li.current-post-ancestor {
+    display: block !important
+}
+
+ul.dynamic-pages li.current_page_item > a {
+    border-right: 8px solid #00BED7
+}
+
+ul.dynamic-pages li.current_page_parent > a {
+    border-right: 8px solid #5664AE
+}
+
+.news-image{
+	float: left;
+}
+
+img.alignleft{
+	float: left;
+}
+
+img.alignleft.post_header_image{
+	float: none;
+}
+
+img.alignright{
+	float: right;
+}
+
+#border .eventpost-date-export {
+	font-size: 1.2em;
+}
+
+a.man_button {
+	width: 80%;
+	margin: 0 10% 0 10%;
+	text-align: center;
+	color: #ebe9eb;
+	font-weight: 700;
+	background-color: #00BED7;
+	font-size: 2em;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px outset #ebe9eb;
+}
+
+a.man_button:hover {
+	border: 1px inset #555;
+	background-color: #ebe9eb;
+	color: #5664AE;
+		
+}
+
+
+@media (max-width: 965px) { 
+    #wrapper, #service-nav{
+    	width: 760px;
+    }
+    #main-nav ul {
+        list-style-type: none;
+        margin-left: 5px;
+        list-style-type: none;
+        float: right;
+        margin-right: 120px;
+    }
+    #content{
+    	float: right;
+    	clear: right;
+    }
+    
+    #border, #border.level-3 {
+        float: left;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    #bottom-container #border{
+   margin-right: 0px;
+   right: 0;}
+    
+    #footer #address {
+        position: absolute;
+        top: 15px
+    }
+    
+    #footer #address #address-left{
+    	width: 210px;
+    }	
+    
+    #border .widget_wpcom_social_media_icons_widget{
+    	float: left;
+    	margin-top: 1em;
+    }
+    #sub-nav{
+    	min-height: 170px;
+    }
+    
+    .logo-de, .logo-fr, logo-en, logo-it{
+    	left: 612px;
+    }
+    #title{
+    	width: 612px;
+    	right: 148px;
+    }
+	#news {
+		width: 500px;
+	}
+	
+	#news .news-item:last-of-type {
+		display: none;
+	}
+	
+    
+}	
+@media (max-width: 762px){
+
+#wrapper, #service-nav, #sub-nav{
+	width: 500px;
+	min-height: 0;
+}
+
+#border, #content, #sub-nav{
+	margin: 0;
+}
+
+#sub-nav, #main-container{
+	padding-top: 0;
+}
+
+#main-nav {
+    display: none;
+}
+
+#sub-nav ul{
+	padding: 0;
+}
+
+#sub-nav ul li a{
+	color:#555;display:block;line-height:21px;padding-left:15px
+	
+}
+#sub-nav ul li{list-style-type:none;border-top:#999 1px dotted}
+
+#sub-nav ul ul li a{
+	padding-left: 30px;
+}
+
+#sub-nav{
+	display: none;
+}
+
+span.news-list-date{
+	margin-right: 5px;
+}
+
+#content .csc-textpic-above{
+	margin-left: 0;
+}
+#news{
+	width: 496px;
+	margin-left: 0;
+}
+
+#bottom-container #border{
+	left: 0;
+	bottom: auto;
+	width: 94%;
+	border: 0;
+	margin-right: 0px;
+	position: relative;
+	text-align: left;
+	
+}
+
+
+
+#border, #border.level-3{
+text-align: center;
+width: 496px;
+margin-left: 0;
+}
+
+#border .widget_wpcom_social_media_icons_widget{
+	padding-left: 75px;
+}
+
+#border img[src$=".svg"] {
+	width: 470px;
+}
+
+#home-footer #footer{
+margin-top: 10px;
+display: none;
+
+}
+
+.nav-trigger[type=checkbox] {
+position: absolute;
+  top: -9999px;
+  left: -9999px;}
+
+.nav-trigger{
+position: sticky;
+position: -webkit-sticky;
+top: 0px;
+display: block;
+z-index: 2;
+	line-height:27px;color:#fff;text-shadow:#000 1px 1px 1px;font-size:16px;
+	  cursor: pointer;
+	  height: 27px;
+	  text-align: center;
+	      border-bottom: 2px solid #747474;
+	      border-top: 1px solid #fff;
+	      background: url(images/main-nav-bg-2.png) repeat-x #9a9a9a;
+}
+
+
+
+.nav-trigger[type=checkbox]:checked ~ #main-container #sub-nav, .nav-trigger[type=checkbox]:checked ~ #top-container #sub-nav{
+
+	display: block;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 27px;
+	background-color: white;
+}
+
+.logo-de, .logo-en, .logo-fr, .logo-it{
+left: 325px;
+z-index: 8;
+}
+#title{
+	width: 325px;
+	right: 175px;
+	padding-bottom: 1px;
+}
+
+.news-list-container{
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+#footer #address {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+#address-left{
+	width: 240px !important;
+}
+
+#news{
+	width: 496px;
+	padding: 10px;
+}
+	
+}
+
+@media (max-width: 500px){
+body{
+		font-size: 14px;
+		overflow-x: hidden;
+	
+}
+
+#service-nav{
+	font-size: 12px;
+}
+	#wrapper, #service-nav{
+		transform: scale(0.8);
+		  transform-origin: 0 0;
+		  
+		  
+		  
+		
+	}
+	
+	
+}
+
+@media (max-width: 400px){
+		body{
+			
+		font-size: 15px}
+		#service-nav{
+			font-size: 12px;
+		}
+
+	#wrapper, #service-nav{
+		transform: scale(0.7);
+		  transform-origin:  0 0 ;
+	}
+}
+
+@media (max-width: 350px){
+	#wrapper, #service-nav{
+		transform: scale(0.65);
+		  transform-origin: 0 0;
+		
+	}
+}
