@@ -1,4 +1,4 @@
-<img src="logo_AMG.svg" alt="" /><?php
+<?php
 // Exit if accessed directly
 if (!defined('ABSPATH'))
     exit;
